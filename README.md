@@ -59,13 +59,12 @@ A modern, responsive portfolio website built with Next.js, React, and Framer Mot
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/sawood164/Portfolio_1
    ```
 
 2. Install dependencies:
 
    ```bash
-   cd portfolio
    npm install
    ```
 
