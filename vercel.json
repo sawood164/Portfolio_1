@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "buildCommand": "next build",
@@ -12,3 +13,19 @@
     }
   }
 }
+=======
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["bom1"],
+  "cleanUrls": true,
+  "public": true,
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}
+>>>>>>> 4beee074c940da1087f7b1280ff63fce57ffe34b

@@ -14,6 +14,7 @@ interface Star {
   opacity: number;
   twinkleSpeed: number;
   hue: number;
+  trail: { x: number; y: number }[];
 }
 
 const HeroBackground: React.FC = () => {
@@ -62,6 +63,7 @@ const HeroBackground: React.FC = () => {
           opacity: Math.random() * 0.5 + 0.5,
           twinkleSpeed: Math.random() * 0.1 + 0.01,
           hue: hue,
+          trail: [],
         });
       }
     };

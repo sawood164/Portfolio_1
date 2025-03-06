@@ -561,8 +561,7 @@ export const Hero: React.FC = () => {
             <motion.h1
               className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold max-w-full break-words"
               style={{
-                background:
-                  "linear-gradient(to right, rgba(255,255,255,0.8), rgba(0,234,255,0.9), rgba(255,255,255,0.8))",
+                background: "linear-gradient(to right, rgba(255,255,255,0.8), rgba(0,234,255,0.9), rgba(255,255,255,0.8))",
                 backgroundClip: "text",
                 WebkitBackgroundClip: "text",
                 color: "transparent",
@@ -601,9 +600,7 @@ export const Hero: React.FC = () => {
             />
             <SocialLink
               href="https://www.linkedin.com/in/md-sawood-alam-614884257/"
-              icon={
-                <Linkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
-              }
+              icon={<Linkedin className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />}
               label="LINKEDIN"
             />
             <SocialLink
@@ -613,9 +610,7 @@ export const Hero: React.FC = () => {
             />
             <SocialLink
               href="https://www.instagram.com/sawood_alam_19/profilecard"
-              icon={
-                <Instagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />
-              }
+              icon={<Instagram className="w-5 h-5 sm:w-6 sm:h-6 md:w-8 md:h-8" />}
               label="INSTAGRAM"
             />
           </motion.div>
