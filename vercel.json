@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["bom1"],
+  "cleanUrls": true,
+  "public": true,
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+}
